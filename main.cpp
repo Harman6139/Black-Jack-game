@@ -135,6 +135,7 @@ int getTopCard(int deck[]) {
       return topcard;    // Return the clone of the card
     }
   }
+  return -1;
 }
 
 void addToHand(int hand[], int cardToAdd) {
